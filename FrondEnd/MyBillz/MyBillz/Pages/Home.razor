@@ -1,4 +1,10 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@implements IAsyncDisposable
+@inject NavigationManager NavigationManager
+
 <PageTitle>MyBillz 首頁</PageTitle>
 
 <div class="container">
@@ -60,3 +66,38 @@
     </section>
 
 </div>
+
+@code {
+    private ElementReference _scrollRef;
+    private IJSObjectReference? _module;
+
+    private string m_sVersion = string.Empty;
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Home.razor.js{m_sVersion}");
+        }
+    }
+
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
+}

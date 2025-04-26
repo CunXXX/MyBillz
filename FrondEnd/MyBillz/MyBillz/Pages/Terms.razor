@@ -1,0 +1,93 @@
+﻿@page "/terms"
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@implements IAsyncDisposable
+@inject NavigationManager NavigationManager
+
+<PageTitle>使用條款與隱私政策 - MyBillz</PageTitle>
+
+<section class="terms-wrapper">
+    <div class="terms-container">
+        <h2>使用條款與隱私政策</h2>
+
+        <div class="terms-content" @ref="_scrollRef" @onscroll="CheckScroll">
+            <p>歡迎使用 MyBillz，我們致力於提供一個簡潔高效的帳務管理工具。本服務由一群熱愛生活效率的工程師與設計師打造。</p>
+            <p>當您使用本服務時，即表示您同意以下條款：</p>
+            <ul>
+                <li>我們不會將您的資料用於廣告用途，也不會提供給第三方。</li>
+                <li>您上傳的帳單僅供您個人帳號使用，並儲存在雲端空間中。</li>
+                <li>我們保留在未通知下修改條款與政策的權利。</li>
+                <li>您的密碼經過加密處理，我們無法得知原文密碼。</li>
+                <li>您可隨時刪除帳號與所有資料，刪除後無法恢復。</li>
+                <li>本服務使用 cookies 以提升使用體驗。</li>
+                <li>如有任何爭議，依台灣地方法律處理。</li>
+                <li>此條款最近一次修改時間為 2025 年 4 月。</li>
+                <li>若您不同意本條款，請勿繼續使用本服務。</li>
+                <li>若您尚未年滿 18 歲，請在監護人同意下使用本服務。</li>
+                <li>我們保留中止帳號的權利，如發現濫用或違反法律行為。</li>
+                <li>當您點選「我同意並繼續註冊」，即視為您已閱讀並接受所有內容。</li>
+            </ul>
+            <p>謝謝您成為我們的一員，願 MyBillz 成為您記帳路上的好夥伴！</p>
+        </div>
+
+        <button class="next-btn" @onclick="AgreeAndContinue" disabled="@(!m_bCanProceed)">
+            我同意並繼續註冊
+        </button>
+    </div>
+</section>
+
+@code {
+    private ElementReference _scrollRef;
+    private IJSObjectReference? _module;
+    private bool m_bCanProceed = false;
+    private string m_sVersion = string.Empty;
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Terms.razor.js{m_sVersion}");
+        }
+    }
+
+    private async Task CheckScroll()
+    {
+        if (_module != null)
+        {
+            var scrollTop = await _module.InvokeAsync<double>("getScrollTop", _scrollRef);
+            var scrollHeight = await _module.InvokeAsync<double>("getScrollHeight", _scrollRef);
+            var clientHeight = await _module.InvokeAsync<double>("getClientHeight", _scrollRef);
+
+            if (scrollTop + clientHeight >= scrollHeight - 5)
+            {
+                m_bCanProceed = true;
+                StateHasChanged();
+            }
+        }
+    }
+
+    private void AgreeAndContinue()
+    {
+        NavigationManager.NavigateTo("/register");
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
+}

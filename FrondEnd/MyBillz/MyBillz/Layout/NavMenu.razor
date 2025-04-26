@@ -4,7 +4,7 @@
     <a href="/pricing">價格方案</a>
     <a href="/faq">常見問題</a>
 
-    @if (isLoggedIn)
+    @if (m_bIsLoggedIn)
     {
         <a href="/dashboard">我的帳戶</a>
         <a href="/logout">登出</a>
@@ -12,10 +12,10 @@
     else
     {
         <a href="/login">登入</a>
-        <a href="/register">註冊</a>
+        <a href="/terms">註冊</a>
     }
 </nav>
 
 @code {
-    private bool isLoggedIn = false; 
+    private bool m_bIsLoggedIn = false; 
 }

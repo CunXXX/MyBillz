@@ -1,4 +1,10 @@
 ﻿@page "/login"
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@implements IAsyncDisposable
+@inject NavigationManager NavigationManager
+
 <PageTitle>登入 - MyBillz</PageTitle>
 
 <section class="login-wrapper">
@@ -22,13 +28,44 @@
             </form>
 
             <div class="login-footer">
-                <span>還沒有帳號？<a href="/register">註冊</a></span>
+                <span>還沒有帳號？<a href="/terms">註冊</a></span>
             </div>
         </div>
     </div>
 </section>
 
 @code {
+    private ElementReference _scrollRef;
+    private IJSObjectReference? _module;
+
+    private string m_sVersion = string.Empty;
     private bool m_bShowPassword = false;
     private void _TogglePassword() => m_bShowPassword = !m_bShowPassword;
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Login.razor.js{m_sVersion}");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
 }
