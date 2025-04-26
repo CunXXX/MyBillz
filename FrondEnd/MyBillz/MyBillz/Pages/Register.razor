@@ -1,0 +1,104 @@
+﻿@page "/register"
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@implements IAsyncDisposable
+@inject NavigationManager NavigationManager
+
+
+<PageTitle>註冊 - MyBillz</PageTitle>
+
+<section class="register-wrapper">
+    <div class="register-container">
+        <h2>註冊新帳號</h2>
+
+        <EditForm Model="m_Input" OnValidSubmit="OnRegisterAsync">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div>
+                <label for="account">帳號 *</label>
+                <InputText id="account" @bind-Value="m_Input.Account" class="input" title="6~12 位，包含大寫英文與數字，不可使用特殊符號" 
+                style="border:1px solid #ccc;  padding: 0.6rem 0.8rem; border-radius:8px; font-size:1rem;" />
+            </div>
+
+            <div>
+                <label for="password">密碼 *</label>
+                <InputText id="password" type="password" @bind-Value="m_Input.Password" class="input" title="6~12 位，包含大寫英文與數字，不可使用特殊符號" 
+                 style="border:1px solid #ccc;  padding: 0.6rem 0.8rem; border-radius:8px; font-size:1rem;"/>
+            </div>
+
+            <div>
+                <label for="confirmPassword">確認密碼 *</label>
+                <InputText id="confirmPassword" type="password" @bind-Value="m_Input.ConfirmPassword" class="input"
+                           style="border:1px solid #ccc;  padding: 0.6rem 0.8rem; border-radius:8px; font-size:1rem;" />
+            </div>
+
+            <div>
+                <label for="email">Email *</label>
+                <InputText id="email" @bind-Value="m_Input.Email" class="input"
+                           style="border:1px solid #ccc;  padding: 0.6rem 0.8rem; border-radius:8px; font-size:1rem;" />
+            </div>
+
+            <div>
+                <label for="phone">電話</label>
+                <InputText id="phone" @bind-Value="m_Input.Phone" class="input"
+                           style="border:1px solid #ccc;  padding: 0.6rem 0.8rem; border-radius:8px; font-size:1rem;" />
+            </div>
+
+            <div class="checkbox-group">
+                <InputCheckbox @bind-Value="m_Input.AgreePrivacy" id="agreePrivacy" />
+                <label for="agreePrivacy">我同意 隱私權與資訊安全政策</label>
+            </div>
+
+            <div class="checkbox-group">
+                <InputCheckbox @bind-Value="m_Input.AgreeTerms" id="agreeTerms" />
+                <label for="agreeTerms">我同意 服務條款</label>
+            </div>
+
+            <button type="submit" class="register-btn">建立帳號</button>
+        </EditForm>
+    </div>
+</section>
+
+@code {
+    private RegisterInputModel m_Input = new();
+    private IJSObjectReference? _module;
+
+    private string m_sVersion = string.Empty;
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Register.razor.js{m_sVersion}");
+        }
+    }
+
+    private async Task OnRegisterAsync()
+    {
+        // TODO: 呼叫 API 進行註冊
+        NavigationManager.NavigateTo("/");
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
+    
+}
