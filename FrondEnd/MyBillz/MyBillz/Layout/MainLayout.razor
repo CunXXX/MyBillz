@@ -1,7 +1,18 @@
 ﻿@inherits LayoutComponentBase
 
-<main>
-    <article class="content px-4">
+<div class="layout">
+    <header>
+        <div class="container">
+            <img src="images/hero-logo.png" alt="MyBillz Logo" class="logo" />
+            <NavMenu />
+        </div>
+    </header>
+
+    <main class="container">
         @Body
-    </article>
-</main>
+    </main>
+
+    <footer class="footer">
+        MyBillz © 2025 ・ <a href="#">聯絡我們</a> ・ <a href="#">使用條款</a>
+    </footer>
+</div>
