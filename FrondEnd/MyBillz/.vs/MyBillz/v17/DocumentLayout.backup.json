@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\home.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\home.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor.js",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor.js",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\Home.razor.js",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor.js",
+              "RelativeToolTip": "MyBillz\\Pages\\Home.razor.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:56:15.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor.css",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor.css",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\Home.razor.css",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor.css",
+              "RelativeToolTip": "MyBillz\\Pages\\Home.razor.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T03:55:47.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor",
+              "RelativeToolTip": "MyBillz\\Pages\\Home.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T03:51:42.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "MyBillz\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\wwwroot\\index.html",
+              "RelativeToolTip": "MyBillz\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T03:49:24.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Program.cs",
+              "RelativeDocumentMoniker": "MyBillz\\Program.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Program.cs",
+              "RelativeToolTip": "MyBillz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:48:53.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
