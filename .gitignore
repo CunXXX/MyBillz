@@ -1,0 +1,18 @@
+# === [後端 .NET Core] ===
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === [前端 Node/Vite/React/Vue] ===
+node_modules/
+dist/
+.env*
+*.log
+.vscode/
+.DS_Store
+
+# === [OS雜物] ===
+Thumbs.db
