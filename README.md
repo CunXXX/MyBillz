@@ -22,10 +22,10 @@
 
 ### 桌機版
 
-![桌機版畫面](./FrondEnd/MyBillz/wwwroot/images/preview-desktop.png)
+![桌機預覽](./FrondEnd/MyBillz/MyBillz/wwwroot/images/preview-desktop.png)
 
 ### 手機版
 
-![手機版畫面](./FrondEnd/MyBillz/wwwroot/images/preview-mobile.png)
+![手機版畫面](./FrondEnd/MyBillz/MyBillz/wwwroot/images/preview-mobile.png)
 
 
