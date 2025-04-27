@@ -1,0 +1,3 @@
+*.wasm application/wasm
+*.br application/octet-stream
+*.gz application/gzip
