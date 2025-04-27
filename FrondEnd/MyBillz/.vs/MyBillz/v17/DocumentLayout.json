@@ -117,21 +117,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T10:01:10.157Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyBillz",
+              "Title": "MyBillz.csproj",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj",
               "RelativeDocumentMoniker": "MyBillz\\MyBillz.csproj",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj*",
-              "RelativeToolTip": "MyBillz\\MyBillz.csproj*",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj",
+              "RelativeToolTip": "MyBillz\\MyBillz.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T10:10:32.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T10:10:32.646Z"
             },
             {
               "$type": "Document",
@@ -139,25 +137,23 @@
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\_Imports.razor",
               "RelativeDocumentMoniker": "MyBillz\\_Imports.razor",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\_Imports.razor*",
-              "RelativeToolTip": "MyBillz\\_Imports.razor*",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\_Imports.razor",
+              "RelativeToolTip": "MyBillz\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T10:04:33.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T10:04:33.172Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Model",
+              "Title": "Model.csproj",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Model\\Model.csproj",
               "RelativeDocumentMoniker": "..\\..\\Model\\Model.csproj",
               "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Model\\Model.csproj",
               "RelativeToolTip": "..\\..\\Model\\Model.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T10:00:58.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T10:00:58.617Z"
             },
             {
               "$type": "Document",
@@ -169,8 +165,7 @@
               "RelativeToolTip": "MyBillz\\Pages\\Terms.razor",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T10:00:39.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T10:00:39.141Z"
             },
             {
               "$type": "Document",
@@ -178,9 +173,9 @@
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Register.razor*",
-              "RelativeToolTip": "MyBillz\\Pages\\Register.razor*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwAQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Register.razor",
+              "RelativeToolTip": "MyBillz\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-26T09:16:17.799Z",
               "EditorCaption": ""
@@ -255,8 +250,7 @@
               "RelativeToolTip": "MyBillz\\Pages\\Login.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T06:14:34.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T06:14:34.847Z"
             },
             {
               "$type": "Document",
@@ -268,8 +262,7 @@
               "RelativeToolTip": "MyBillz\\Pages\\Home.razor",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwEUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T03:51:42.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T03:51:42.239Z"
             },
             {
               "$type": "Document",
@@ -281,8 +274,7 @@
               "RelativeToolTip": "MyBillz\\Services\\AppSettingsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T07:38:21.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T07:38:21.376Z"
             },
             {
               "$type": "Document",
@@ -294,8 +286,7 @@
               "RelativeToolTip": "MyBillz\\Pages\\Register.razor.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-26T09:17:10.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T09:17:10.254Z"
             },
             {
               "$type": "Document",
