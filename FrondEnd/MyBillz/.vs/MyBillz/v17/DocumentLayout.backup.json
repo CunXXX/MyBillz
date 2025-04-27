@@ -128,8 +128,8 @@
               "Title": "MyBillz",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj",
               "RelativeDocumentMoniker": "MyBillz\\MyBillz.csproj",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj*",
-              "RelativeToolTip": "MyBillz\\MyBillz.csproj*",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj",
+              "RelativeToolTip": "MyBillz\\MyBillz.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-27T07:24:32.91Z",
@@ -147,10 +147,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-04-27T07:13:17.673Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
