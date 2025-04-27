@@ -10,15 +10,15 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TC\\project\\MyBillz\\docs\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F11B9991-D4D7-4402-AB97-1405ED7F1D66}|..\\..\\Model\\Model.csproj|c:\\users\\tc\\project\\mybillz\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\terms.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\terms.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F11B9991-D4D7-4402-AB97-1405ED7F1D66}|..\\..\\Model\\Model.csproj|c:\\users\\tc\\project\\mybillz\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\tc\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -108,7 +108,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Model\\Model.cs",
               "RelativeDocumentMoniker": "..\\..\\Model\\Model.cs",
@@ -128,9 +128,9 @@
               "RelativeDocumentMoniker": "MyBillz\\MyBillz.csproj",
               "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\MyBillz.csproj*",
               "RelativeToolTip": "MyBillz\\MyBillz.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-27T08:05:27.591Z",
+              "WhenOpened": "2025-04-27T08:36:32.468Z",
               "EditorCaption": ""
             },
             {
@@ -141,14 +141,14 @@
               "RelativeDocumentMoniker": "..\\..\\docs\\index.html",
               "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\docs\\index.html",
               "RelativeToolTip": "..\\..\\docs\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-27T07:43:24.58Z",
+              "WhenOpened": "2025-04-27T08:35:52.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Terms.razor",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Terms.razor",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Terms.razor",
@@ -258,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Program.cs",
               "RelativeDocumentMoniker": "MyBillz\\Program.cs",
