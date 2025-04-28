@@ -1,37 +1,59 @@
-name: Build and Deploy Blazor WASM to GitHub Pages
-
+name: Build and Deploy Blazor WASM to GitHub Pages and Vercel
 on:
   push:
     branches:
       - master
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
-
+      
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-
+        
     - name: Publish Blazor Client Project
       run: dotnet publish ./FrondEnd/MyBillz/MyBillz/MyBillz.csproj -c Release -o release --nologo
-
+      
     - name: 修改 index.html 的 base href 設定
       run: sed -i 's/<base href="\/" \/>/<base href="\/MyBillz\/" \/>/g' release/wwwroot/index.html
-
+      
     - name: 新增 .nojekyll 檔
       run: touch release/wwwroot/.nojekyll
-
+      
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./release/wwwroot
+        
+    - name: 安裝 Vercel CLI
+      run: npm install --global vercel
+      
+    - name: 複製靜態檔案到 Vercel 部署目錄
+      run: |
+        mkdir -p vercel_deploy
+        cp -r release/wwwroot/* vercel_deploy/
+        
+    - name: 建立 Vercel 配置檔案
+      run: |
+        cat > vercel_deploy/vercel.json << EOF
+        {
+          "rewrites": [
+            { "source": "/(.*)", "destination": "/index.html" }
+          ]
+        }
+        EOF
+        
+    - name: 部署到 Vercel
+      run: |
+        vercel vercel_deploy --token ${{ secrets.VERCEL_TOKEN }} --prod --confirm
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
