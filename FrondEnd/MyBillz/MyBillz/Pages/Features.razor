@@ -1,0 +1,84 @@
+﻿@page "/features"
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+
+<PageTitle>功能介紹 - MyBillz</PageTitle>
+
+<div class="container">
+
+    <section class="features-hero">
+        <div class="text">
+            <h1>功能介紹</h1>
+            <p>理財，不再複雜</p>
+        </div>
+    </section>
+
+    <section class="features-list">
+        <div>
+            <img src="images/hero-camera.png" alt="帳單拍照上傳" />
+            <h3>帳單拍照上傳 →</h3>
+            <p>自動建帳，省時又方便。</p>
+        </div>
+        <div>
+            <img src="images/hero-email.png" alt="Email 匯入" />
+            <h3>Email 匯入 →</h3>
+            <p>信用卡繳費、發票建帳一次搞定。</p>
+        </div>
+        <div>
+            <img src="images/hero-report.png" alt="月報圖表" />
+            <h3>月報圖表 →</h3>
+            <p>收支一目了然，掌握財務趨勢。</p>
+        </div>
+        <div>
+            <img src="images/hero-security.png" alt="資料加密" />
+            <h3>資料加密 →</h3>
+            <p>全程保護您的帳務資料安全。</p>
+        </div>
+    </section>
+
+    <div class="start-button-wrapper">
+        <button class="main" @onclick="GoToHome">立即體驗</button>
+    </div>
+
+</div>
+
+@code {
+    private IJSObjectReference? _module;
+    private string m_sVersion = string.Empty;
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Features.razor.js{m_sVersion}");
+            if (_module != null) await _module.InvokeVoidAsync("init");
+        }
+    }
+
+    private void GoToHome()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
+}
