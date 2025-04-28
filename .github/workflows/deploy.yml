@@ -1,58 +1,64 @@
 name: Build and Deploy Blazor WASM to GitHub Pages and Vercel
+
 on:
   push:
     branches:
       - master
+
 permissions:
-  contents: write 
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout Repository 
       uses: actions/checkout@v3
-      
+
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-        
+
     - name: Publish Blazor Client Project
       run: dotnet publish ./FrondEnd/MyBillz/MyBillz/MyBillz.csproj -c Release -o release --nologo
-      
-    - name: 修改 index.html 的 base href 設定
-      run: sed -i 's/<base href="\/" \/>/<base href="\/MyBillz\/" \/>/g' release/wwwroot/index.html
-      
+
+    # ---- GitHub Pages 專用處理 ----
+    - name: 修改 index.html 的 base href 為 /MyBillz/
+      run: sed -i 's|<base href="/" />|<base href="/MyBillz/" />|g' release/wwwroot/index.html
+
     - name: 新增 .nojekyll 檔
       run: touch release/wwwroot/.nojekyll
-      
+
+    - name: 複製 index.html 成 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./release/wwwroot
-        
+
+    # ---- Vercel 專用處理 ----
+    - name: 修改 index.html 的 base href 為 /
+      run: sed -i 's|<base href="/MyBillz/" />|<base href="/" />|g' release/wwwroot/index.html
+
     - name: 安裝 Vercel CLI
       run: npm install --global vercel
-      
-    - name: 複製靜態檔案到 Vercel 部署目錄
-      run: |
-        mkdir -p vercel_deploy
-        cp -r release/wwwroot/* vercel_deploy/
-        
+
     - name: 建立 Vercel 配置檔案
       run: |
-        cat > vercel_deploy/vercel.json << EOF
+        cat > release/wwwroot/vercel.json << EOF
         {
           "rewrites": [
             { "source": "/(.*)", "destination": "/index.html" }
           ]
         }
         EOF
-        
-    - name: 部署到 Vercel
-      run: |
-        vercel ./release/wwwroot --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
+
+    - name: Deploy to Vercel
+      run: vercel ./release/wwwroot --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
