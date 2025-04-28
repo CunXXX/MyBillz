@@ -3,7 +3,7 @@ name: Build and Deploy Blazor WASM to GitHub Pages
 on:
   push:
     branches:
-      - master   # 如果你的分支是 master，不是 main，就填 master
+      - master
 
 jobs:
   build:
@@ -19,9 +19,16 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish Blazor Client Project
-      run: dotnet publish ./MyBillz/FrondEnd/MyBillz/MyBillz//MyBillz.csproj -c Release -o release --nologo
+      run: dotnet publish ./MyBillz/FrondEnd/MyBillz/MyBillz.csproj -c Release -o release --nologo
+
+    - name: 修改 index.html 的 base href 設定
+      run: sed -i 's/<base href="\/" \/>/<base href="\/MyBillz\/" \/>/g' release/wwwroot/index.html
+
+    - name: 新增 .nojekyll 檔
+      run: touch release/wwwroot/.nojekyll
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./release/wwwroot
