@@ -1,11 +1,12 @@
 ﻿using System.Net.Http.Json;
+using System.Text.Json;
 
 namespace MyBillz.Services;
 
 public class AppSettingsService
 {
     private readonly HttpClient _httpClient;
-    public Dictionary<string, object>? Settings { get; private set; }
+    private Dictionary<string, object>? _settings;
 
     public AppSettingsService(HttpClient httpClient)
     {
@@ -14,21 +15,31 @@ public class AppSettingsService
 
     public async Task LoadAsync()
     {
-        Settings = await _httpClient.GetFromJsonAsync<Dictionary<string, object>>("appsettings.json");
+        _settings = await _httpClient.GetFromJsonAsync<Dictionary<string, object>>("appsettings.json");
     }
 
     public T Get<T>(string key)
     {
-        if (Settings == null)
+        if (_settings != null && _settings.TryGetValue(key, out var value))
         {
-            throw new InvalidOperationException("Settings have not been loaded yet.");
-        }
+            if (value is JsonElement element)
+            {
+                if (typeof(T) == typeof(string))
+                {
+                    return (T)(object)(element.GetString() ?? "");
+                }
+                if (typeof(T) == typeof(int))
+                {
+                    return (T)(object)element.GetInt32();
+                }
+                if (typeof(T) == typeof(bool))
+                {
+                    return (T)(object)element.GetBoolean();
+                }
+            }
 
-        if (Settings.TryGetValue(key, out var value))
-        {
             return (T)Convert.ChangeType(value, typeof(T));
         }
-
-        throw new KeyNotFoundException($"Key '{key}' not found in appsettings.json.");
+        return default!;
     }
 }
