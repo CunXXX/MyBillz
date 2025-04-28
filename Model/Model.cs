@@ -17,3 +17,10 @@ public class RegisterInputModel
     [Required] public bool AgreePrivacy { get; set; }
     [Required] public bool AgreeTerms { get; set; }
 }
+
+public class FaqModel
+{
+    public string Question { get; set; } = string.Empty;
+    public string Answer { get; set; } = string.Empty;
+    public bool IsOpen { get; set; } = false;
+}

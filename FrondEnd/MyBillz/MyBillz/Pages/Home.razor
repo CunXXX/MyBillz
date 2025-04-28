@@ -85,9 +85,9 @@
             m_sVersion = AppSettings.Get<string>("Version");
     }
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnAfterRenderAsync(bool bFirstRender)
     {
-        if (firstRender)
+        if (bFirstRender)
         {
             _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Home.razor.js{m_sVersion}");
         }

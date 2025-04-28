@@ -1,0 +1,79 @@
+﻿@page "/Faq"
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@using MyBillz.Services
+@inject IJSRuntime JS
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+
+<PageTitle>常見問題 - MyBillz</PageTitle>
+
+<div class="container">
+
+    <section class="faq-hero">
+        <h1>常見問題</h1>
+        <p>擺脫煩惱的帳務在這邊找到答案</p>
+    </section>
+
+    <section class="faq-list">
+        @foreach (var faq in FaqItems)
+        {
+            <div class="faq-item">
+                <div class="faq-question" @onclick="() => ToggleAnswer(faq)">
+                    <h3>
+                        <span>@faq.Question</span>
+                        <span class="arrow @(faq.IsOpen ? "open" : "")">▼</span>
+                    </h3>
+                </div>
+                <div class="faq-answer" style="@(faq.IsOpen ? "max-height:500px;" : "max-height:0;")">
+                    <p>@faq.Answer</p>
+                </div>
+            </div>
+        }
+    </section>
+
+</div>
+
+@code {
+    private IJSObjectReference? _module;
+    private string m_sVersion = string.Empty;
+
+    private List<FaqModel> FaqItems = new()
+    {
+        new FaqModel { Question = "Q：我可以免費使用嗎？", Answer = "A：是的，提供基本免費版，無廣告。" },
+        new FaqModel { Question = "Q：帳單圖片會上傳到哪裡？", Answer = "A：僅儲存在您的帳號空間中，其他人無法存取。" },
+        new FaqModel { Question = "Q：支援匯入哪些銀行的 Email 帳單？", Answer = "A：目前支援多數台灣本地銀行，包括中國信託、玉山、台新等。" },
+        new FaqModel { Question = "Q：MyBillz 可以使用在手機上嗎？", Answer = "A：可以，我們支援 iOS 和 Android 裝置。" }
+    };
+
+    private void ToggleAnswer(FaqModel mFaq)
+    {
+        mFaq.IsOpen = !mFaq.IsOpen;
+    }
+
+    [Inject] private AppSettingsService AppSettings { get; set; } = default!;
+    [Inject] private IWebAssemblyHostEnvironment HostEnvironment { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AppSettings.LoadAsync();
+
+        if (HostEnvironment.IsDevelopment())
+            m_sVersion = $"?v={DateTime.Now.Ticks}";
+        else
+            m_sVersion = AppSettings.Get<string>("Version");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool bFirstRender)
+    {
+        if (bFirstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Faq.razor.js{m_sVersion}");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+            await _module.DisposeAsync();
+    }
+}

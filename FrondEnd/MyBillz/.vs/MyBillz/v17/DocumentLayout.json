@@ -3,32 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\faq.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\faq.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\faq.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\faq.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F11B9991-D4D7-4402-AB97-1405ED7F1D66}|..\\..\\Model\\Model.csproj|c:\\users\\user\\project\\mybillz\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\faq.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\faq.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|c:\\users\\user\\project\\mybillz\\frondend\\mybillz\\mybillz\\pages\\features.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B294F7D0-9055-43AF-B060-1505669C5585}|MyBillz\\MyBillz.csproj|solutionrelative:mybillz\\pages\\features.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +101,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\Model\\Model.cs",
+              "RelativeDocumentMoniker": "..\\..\\Model\\Model.cs",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\Model\\Model.cs",
+              "RelativeToolTip": "..\\..\\Model\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T06:18:41.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FAQ.razor.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor.js",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\FAQ.razor.js",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor.js",
+              "RelativeToolTip": "MyBillz\\Pages\\FAQ.razor.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-28T06:16:20.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FAQ.razor.css",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor.css",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\FAQ.razor.css",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor.css",
+              "RelativeToolTip": "MyBillz\\Pages\\FAQ.razor.css",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-28T06:16:04.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FAQ.razor",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor",
+              "RelativeDocumentMoniker": "MyBillz\\Pages\\FAQ.razor",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\FAQ.razor",
+              "RelativeToolTip": "MyBillz\\Pages\\FAQ.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T06:15:39.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Home.razor.css",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor.css",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Home.razor.css",
@@ -103,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Features.razor.js",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Features.razor.js",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Features.razor.js",
@@ -116,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Features.razor.css",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Features.razor.css",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Features.razor.css",
@@ -129,20 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Features.razor",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Features.razor",
               "RelativeDocumentMoniker": "MyBillz\\Pages\\Features.razor",
               "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Features.razor",
               "RelativeToolTip": "MyBillz\\Pages\\Features.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-28T05:43:17.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "MyBillz\\Layout\\NavMenu.razor",
@@ -155,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MyBillz\\Layout\\MainLayout.razor",
@@ -164,40 +227,6 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-28T05:33:27.74Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "cf5bf9ad-b2f0-44a5-a84e-2935da82531e",
-        "Display": 1,
-        "X": 741,
-        "Y": 249,
-        "Width": 1630,
-        "Height": 793,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "MyBillz\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\FrondEnd\\MyBillz\\MyBillz\\Pages\\Home.razor",
-              "RelativeToolTip": "MyBillz\\Pages\\Home.razor",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T05:32:45.149Z",
               "EditorCaption": ""
             }
           ]
