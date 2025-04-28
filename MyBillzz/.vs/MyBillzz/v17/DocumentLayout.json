@@ -1,12 +1,285 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\mybillzservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\mybillzservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3469195-E68E-4A00-83C0-E06AF04574AD}|..\\Helper\\Helper.csproj|c:\\users\\tc\\project\\mybillz\\helper\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3469195-E68E-4A00-83C0-E06AF04574AD}|..\\Helper\\Helper.csproj|c:\\users\\tc\\project\\mybillz\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\logging\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\logging\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E16206D-7A2C-41E4-9BD3-A55D4C8CDCE4}|..\\Common\\Common.csproj|c:\\users\\tc\\project\\mybillz\\common\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602866BA-4B88-4717-B871-3C807FFD29E0}|..\\DBModel\\DBModel.csproj|c:\\users\\tc\\project\\mybillz\\dbmodel\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Helper\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "..\\Helper\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Helper\\TokenHelper.cs",
+              "RelativeToolTip": "..\\Helper\\TokenHelper.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:38:59.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "..\\Helper\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "..\\Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:38:11.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Program.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Program.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Program.cs",
+              "RelativeToolTip": "MyBillzService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:10:29.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Repositories\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "MyBillzService\\Repositories\\MemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:42:43.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Repositories\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "MyBillzService\\Repositories\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:41:39.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\MemberService.cs",
+              "RelativeToolTip": "MyBillzService\\Services\\MemberService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:40:30.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Services\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
+              "RelativeToolTip": "MyBillzService\\Services\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:39:56.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "MyBillzService\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:38:34.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDBService.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Common\\IDBService.cs",
+              "RelativeDocumentMoniker": "..\\Common\\IDBService.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Common\\IDBService.cs",
+              "RelativeToolTip": "..\\Common\\IDBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:33:43.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyBillzService",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\MyBillzService.csproj",
+              "RelativeDocumentMoniker": "MyBillzService\\MyBillzService.csproj",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\MyBillzService.csproj",
+              "RelativeToolTip": "MyBillzService\\MyBillzService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T13:22:23.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\DBModel\\Member.cs",
+              "RelativeDocumentMoniker": "..\\DBModel\\Member.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\DBModel\\Member.cs",
+              "RelativeToolTip": "..\\DBModel\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:46:41.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILoggingService.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\ILoggingService.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Logging\\ILoggingService.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\ILoggingService.cs",
+              "RelativeToolTip": "MyBillzService\\Logging\\ILoggingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:28:29.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "..\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:56:32.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "..\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:50:55.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\LoggingService.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Logging\\LoggingService.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\LoggingService.cs",
+              "RelativeToolTip": "MyBillzService\\Logging\\LoggingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:31:28.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\BaseModel.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\DTOs\\BaseModel.cs",
+              "RelativeToolTip": "..\\DTOs\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:22:29.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
