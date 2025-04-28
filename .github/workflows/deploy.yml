@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish Blazor Client Project
-      run: dotnet publish ./MyBillz/FrondEnd/MyBillz/MyBillz/MyBillz.csproj -c Release -o release --nologo
+      run: dotnet publish ./FrondEnd/MyBillz/MyBillz/MyBillz.csproj -c Release -o release --nologo
 
     - name: 修改 index.html 的 base href 設定
       run: sed -i 's/<base href="\/" \/>/<base href="\/MyBillz\/" \/>/g' release/wwwroot/index.html
