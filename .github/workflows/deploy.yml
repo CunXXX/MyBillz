@@ -19,10 +19,9 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish Blazor Client Project
-      run: dotnet publish ./MyBillz/FrondEnd/MyBillz/MyBillz//MyBillz.csproj -c Release -o release
+      run: dotnet publish ./MyBillz/FrondEnd/MyBillz/MyBillz//MyBillz.csproj -c Release -o release --nologo
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./release/wwwroot
