@@ -15,16 +15,17 @@
     </section>
 
     <section class="faq-list">
-        @foreach (var faq in FaqItems)
+        @foreach (var faq in _lstFaqItems)
         {
+            var faqId = $"faq-{faq.Id}";
             <div class="faq-item">
-                <div class="faq-question" @onclick="() => ToggleAnswer(faq)">
+                <div class="faq-question" @onclick="() => ToggleAnswer(faqId)">
                     <h3>
                         <span>@faq.Question</span>
-                        <span class="arrow @(faq.IsOpen ? "open" : "")">▼</span>
+                        <span class="arrow">▼</span>
                     </h3>
                 </div>
-                <div class="faq-answer" style="@(faq.IsOpen ? "max-height:500px;" : "max-height:0;")">
+                <div id="@faqId" class="faq-answer">
                     <p>@faq.Answer</p>
                 </div>
             </div>
@@ -37,12 +38,12 @@
     private IJSObjectReference? _module;
     private string m_sVersion = string.Empty;
 
-    private List<FaqModel> FaqItems = new()
+    private List<FaqModel> _lstFaqItems = new()
     {
-        new FaqModel { Question = "Q：我可以免費使用嗎？", Answer = "A：是的，提供基本免費版，無廣告。" },
-        new FaqModel { Question = "Q：帳單圖片會上傳到哪裡？", Answer = "A：僅儲存在您的帳號空間中，其他人無法存取。" },
-        new FaqModel { Question = "Q：支援匯入哪些銀行的 Email 帳單？", Answer = "A：目前支援多數台灣本地銀行，包括中國信託、玉山、台新等。" },
-        new FaqModel { Question = "Q：MyBillz 可以使用在手機上嗎？", Answer = "A：可以，我們支援 iOS 和 Android 裝置。" }
+        new FaqModel { Id = 1, Question = "Q：我可以免費使用嗎？", Answer = "A：是的，提供基本免費版，無廣告。" },
+        new FaqModel { Id = 2, Question = "Q：帳單圖片會上傳到哪裡？", Answer = "A：僅儲存在您的帳號空間中，其他人無法存取。" },
+        new FaqModel { Id = 3, Question = "Q：支援匯入哪些銀行的 Email 帳單？", Answer = "A：目前支援多數台灣本地銀行，包括中國信託、玉山、台新等。" },
+        new FaqModel { Id = 4, Question = "Q：MyBillz 可以使用在手機上嗎？", Answer = "A：可以，我們支援 iOS 和 Android 裝置。" }
     };
 
     private void ToggleAnswer(FaqModel mFaq)
@@ -68,6 +69,19 @@
         if (bFirstRender)
         {
             _module = await JS.InvokeAsync<IJSObjectReference>("import", $"./Pages/Faq.razor.js{m_sVersion}");
+        }
+    }
+
+    /// <summary>
+    /// 開闔問與答
+    /// </summary>
+    /// <param name="strFaqId"></param>
+    /// <returns></returns>
+    private async Task ToggleAnswer(string strFaqId)
+    {
+        if (_module != null)
+        {
+            await _module.InvokeVoidAsync("toggleFaqAnswer", strFaqId);
         }
     }
 
