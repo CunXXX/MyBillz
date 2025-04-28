@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MyBillz",
   "resources": {
-    "hash": "sha256-xvjKaG1S9KRxNkA+Put26/DCfMHQ4ybPtOAsVuWZAPM=",
+    "hash": "sha256-RxX5lZBLLSF5ZfmtLjZFm6d01OOfQnxUI7i1X/0HRxY=",
     "jsModuleNative": {
       "dotnet.native.8.0.15.l5bze06whq.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -44,10 +44,10 @@
       "Microsoft.VisualBasic.wasm": "sha256-DODJXTF774h/VCwCAURe2tBEo7BF/B6mDeBXdDgiLgM=",
       "Microsoft.Win32.Primitives.wasm": "sha256-ztB5x0f/hrTgotq1AybglZ8bB8BDm/g6jIupFXQMU7c=",
       "Microsoft.Win32.Registry.wasm": "sha256-I1wXxctfpR0NkP1RwIWJmK0wMdGrbSOsosl4NyffgS0=",
-      "Model.wasm": "sha256-V6u+zrpeQ05hwRnP6g4ambphphpSL01t9Fwkt4z0f6w=",
+      "Model.wasm": "sha256-K27LeWjEns4CGg48NSKkp8zBQszSpklxC/pdrQ9CL0o=",
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "MudBlazor.wasm": "sha256-B1r0lQbtoPPuBaAzUXcZygkrhkuxdQBKjsDc0ugfazM=",
-      "MyBillz.wasm": "sha256-kMim0CRRCmqITxplNbBDZ3amWhqx9G155j5zGmC4kIo=",
+      "MyBillz.wasm": "sha256-lbxhPlAUXEhamRS4aUCHppOZHaZsaP5oVlvOKCdpuIU=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.AppContext.wasm": "sha256-TSazCCTA6IXiolG/5XYQWf/R7FCjISRCzApIVRB2ZrU=",
       "System.Buffers.wasm": "sha256-PXdc1NoPwbUbXUi7qpJNgTii3N0BRNy5US1B9Zi0LVQ=",
