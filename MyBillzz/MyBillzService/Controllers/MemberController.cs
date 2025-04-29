@@ -1,6 +1,6 @@
-﻿using DTOs;
+﻿
+using DTOs;
 using Microsoft.AspNetCore.Mvc;
-using MyBillzService.Logging;
 using MyBillzService.Services;
 using static DTOs.BaseModel;
 
@@ -20,22 +20,24 @@ public class MemberController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Login([FromBody] LoginRequestDto request)
     {
-        var response = await _memberService.LoginAsync(request);
+        try
+        {
+            var response = await _memberService.LoginAsync(request);
 
-        if (response == null)
+            return Ok(new ApiResponse<LoginResponseDto?>
+            {
+                Status = new ApiStatus { Code = 0, Message = "登入成功" },
+                Data = response
+            });
+        }
+        catch (Exception ex)
         {
             return BadRequest(new ApiResponse<LoginResponseDto?>
             {
-                Status = new ApiStatus { Code = 401, Message = "帳號或密碼錯誤" },
+                Status = new ApiStatus { Code = 401, Message = ex.Message },
                 Data = null
             });
         }
-
-        return Ok(new ApiResponse<LoginResponseDto?>
-        {
-            Status = new ApiStatus { Code = 0, Message = "登入成功" },
-            Data = response
-        });
     }
 
 }

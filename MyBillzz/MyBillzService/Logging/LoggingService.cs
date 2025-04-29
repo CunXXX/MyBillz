@@ -9,18 +9,18 @@ public class LoggingService : ILoggingService
         _logger = logger;
     }
 
-    public void LogInfo(string message)
+    public void LogInfo(string strMessage)
     {
-        _logger.LogInformation(message);
+        _logger.LogInformation(strMessage);
     }
 
-    public void LogWarning(string message)
+    public void LogWarning(string strMessage)
     {
-        _logger.LogWarning(message);
+        _logger.LogWarning(strMessage);
     }
 
-    public void LogError(string message, Exception? ex = null)
+    public void LogError(string strMessage, Exception? ex = null)
     {
-        _logger.LogError(ex, message);
+        _logger.LogError(ex, strMessage);
     }
 }

@@ -4,5 +4,5 @@ namespace MyBillzService.Services;
 
 public interface IMemberService
 {
-    Task<LoginResponseDto?> LoginAsync(LoginRequestDto request);
+    Task<LoginResponseDto?> LoginAsync(LoginRequestDto dtoRequest);
 }
