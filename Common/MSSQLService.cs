@@ -8,21 +8,21 @@ public class MSSQLService : IDBService, IDisposable
     private readonly SqlConnection _connection;
     private SqlTransaction? _transaction;
 
-    public MSSQLService(string connectionString)
+    public MSSQLService(string strConnection)
     {
-        _connection = new SqlConnection(connectionString);
+        _connection = new SqlConnection(strConnection);
         _connection.Open();
         _transaction = _connection.BeginTransaction();
     }
 
-    public async Task<IEnumerable<T>> QueryAsync<T>(string sql, object? param = null)
+    public async Task<IEnumerable<T>> QueryAsync<T>(string strSql, object? Param = null)
     {
-        return await _connection.QueryAsync<T>(sql, param, _transaction);
+        return await _connection.QueryAsync<T>(strSql, Param, _transaction);
     }
 
-    public async Task<int> ExecuteAsync(string sql, object? param = null)
+    public async Task<int> ExecuteAsync(string strSql, object? Param = null)
     {
-        return await _connection.ExecuteAsync(sql, param, _transaction);
+        return await _connection.ExecuteAsync(strSql, Param, _transaction);
     }
 
     public async Task CommitAsync()

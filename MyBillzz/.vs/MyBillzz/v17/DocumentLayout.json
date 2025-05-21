@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Project\\MyBillz\\MyBillzz\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{D3469195-E68E-4A00-83C0-E06AF04574AD}|..\\Helper\\Helper.csproj|c:\\users\\tc\\project\\mybillz\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,31 +29,22 @@
       "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E16206D-7A2C-41E4-9BD3-A55D4C8CDCE4}|..\\Common\\Common.csproj|c:\\users\\user\\project\\mybillz\\common\\mssqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E16206D-7A2C-41E4-9BD3-A55D4C8CDCE4}|..\\Common\\Common.csproj|c:\\users\\tc\\project\\mybillz\\common\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\user\\project\\mybillz\\mybillzz\\mybillzservice\\logging\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\logging\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602866BA-4B88-4717-B871-3C807FFD29E0}|..\\DBModel\\DBModel.csproj|c:\\users\\tc\\project\\mybillz\\dbmodel\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\user\\project\\mybillz\\mybillzz\\mybillzservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44DA7F34-B9D7-4312-9613-44937AB3C7DF}|..\\DTOs\\DTOs.csproj|c:\\users\\tc\\project\\mybillz\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\tc\\project\\mybillz\\mybillzz\\mybillzservice\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\logging\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|c:\\users\\user\\project\\mybillz\\mybillzz\\mybillzservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36678022-8FFC-44B4-AD1A-B9A3ED906575}|MyBillzService\\MyBillzService.csproj|solutionrelative:mybillzservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,29 +57,77 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TokenHelper.cs",
-              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Helper\\TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\Helper\\TokenHelper.cs",
               "RelativeDocumentMoniker": "..\\Helper\\TokenHelper.cs",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Helper\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\Helper\\TokenHelper.cs",
               "RelativeToolTip": "..\\Helper\\TokenHelper.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAawBQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:38:59.88Z",
+              "WhenOpened": "2025-04-29T06:52:43.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PasswordHelper.cs",
-              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\Helper\\PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\Helper\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "..\\Helper\\PasswordHelper.cs",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\Helper\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\Helper\\PasswordHelper.cs",
               "RelativeToolTip": "..\\Helper\\PasswordHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:38:11.837Z",
+              "WhenOpened": "2025-04-29T06:53:55.012Z",
               "EditorCaption": ""
             },
             {
@@ -147,26 +186,26 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IMemberService.cs",
-              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
               "RelativeDocumentMoniker": "MyBillzService\\Services\\IMemberService.cs",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\MyBillzz\\MyBillzService\\Services\\IMemberService.cs",
               "RelativeToolTip": "MyBillzService\\Services\\IMemberService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:39:56.971Z",
+              "WhenOpened": "2025-04-29T06:03:58.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "MyBillzService\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\TC\\project\\MyBillz\\MyBillzz\\MyBillzService\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "MyBillzService\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBAAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\LoggingService.cs",
+              "RelativeDocumentMoniker": "MyBillzService\\Logging\\LoggingService.cs",
+              "ToolTip": "C:\\Users\\USER\\Project\\MyBillz\\MyBillzz\\MyBillzService\\Logging\\LoggingService.cs",
+              "RelativeToolTip": "MyBillzService\\Logging\\LoggingService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:38:34.203Z",
+              "WhenOpened": "2025-04-29T06:03:36.018Z",
               "EditorCaption": ""
             },
             {
@@ -179,7 +218,7 @@
               "RelativeToolTip": "..\\Common\\IDBService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:33:43.684Z",
+              "WhenOpened": "2025-04-29T06:03:14.401Z",
               "EditorCaption": ""
             },
             {
@@ -192,7 +231,7 @@
               "RelativeToolTip": "..\\DBModel\\Member.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:46:41.016Z",
+              "WhenOpened": "2025-04-29T05:44:20.669Z",
               "EditorCaption": ""
             },
             {
@@ -205,7 +244,7 @@
               "RelativeToolTip": "MyBillzService\\Logging\\ILoggingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:28:29.608Z",
+              "WhenOpened": "2025-04-29T05:40:19.791Z",
               "EditorCaption": ""
             },
             {
@@ -218,7 +257,7 @@
               "RelativeToolTip": "..\\DTOs\\LoginResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:56:32.255Z",
+              "WhenOpened": "2025-04-29T05:31:41.214Z",
               "EditorCaption": ""
             },
             {
@@ -231,7 +270,7 @@
               "RelativeToolTip": "..\\DTOs\\LoginRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:50:55.183Z",
+              "WhenOpened": "2025-04-29T01:48:28.194Z",
               "EditorCaption": ""
             },
             {
@@ -257,7 +296,7 @@
               "RelativeToolTip": "..\\DTOs\\BaseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:22:29.846Z",
+              "WhenOpened": "2025-04-29T01:12:46.253Z",
               "EditorCaption": ""
             }
           ]

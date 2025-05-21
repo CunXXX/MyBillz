@@ -9,7 +9,7 @@ public static class TokenHelper
 {
     public static string GenerateJwtToken(string strAccount)
     {
-        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSuperSecretKey12345"));
+        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyBillzSuperSuperSuperSecretKey55667788"));
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
         var claims = new[]
