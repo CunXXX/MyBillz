@@ -53,7 +53,7 @@ public class MemberService : IMemberService
             {
                 UserId = user.UserId,
                 Account = user.Account,
-                Token = "mock-token-here",
+                Token = _strToken,
                 ExpiresIn = 3600
             };
         }
